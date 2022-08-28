@@ -1,0 +1,24 @@
+:root {
+--color1 : #dc9c34 ;
+--color2 : #f4dc7c ;
+--color3:  #18155a ;
+--color4:  #9a8a6d ;
+--color5:  #acb6d6 ;
+};
+
+
+
+
+#menu{
+  background-color:var(--color1);
+  color: #18155a;
+  justify-content: space-between
+};
+.presentation {
+  font-size: 2vh;
+  color: var(--color3);
+  background-color: var(--color5);
+  
+
+};
+
