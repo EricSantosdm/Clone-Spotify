@@ -6,11 +6,32 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+ .logo{
+  height: 4vh;  
+  width: auto;
+  display: flex;
+
+}
+.btn-primary{
+  background:#1Db964 ;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 60px;
+  border-radius: 30px;
+  border: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
 #navbar{
   display: flex;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+ 
 }
 #navbar #navbar-container{
   width: 80%;  
@@ -20,12 +41,7 @@ body{
   padding: 1vh 0;
 
 }
-#navbar #navbar-container .logo{
-  height: 4vh;  
-  width: auto;
-  display: flex;
 
-}
 #navbar #navbar-container ul{
   display: flex;
   list-style: none;
@@ -39,4 +55,97 @@ padding: 0 2vw;
 #navbar #navbar-container ul li:nth-child(3) {
 border-right: 1px solid white;
 
+}
+
+#showcase{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: url(/img/showcase.webp) center center/cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: color;
+
+}
+#showcase .showcase-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+
+}
+#showcase .showcase-container h2{
+ font-size: 5rem;
+ 
+
+}
+#showcase .showcase-container p{
+  margin: 10px 0;
+  font-size: 1.1rem;
+
+}
+
+#footer{
+  background-color: black;
+  color: white;
+  
+}
+#footer .footer-contents{
+  display: flex;
+  width: 60%;
+  margin: auto;
+  padding: 80px 0;
+}
+#footer .footer-contents .footer-menu{
+  margin: 0 40px;
+  list-style: none;
+
+}
+#footer .footer-contents .footer-menu .footer-menu-item{
+  margin: 25px 0;
+}
+.socials{
+  display: flex;
+}
+.socials i{
+  margin: 0 20px;
+  font-size: 1.7rem;
+  flex-direction: row;
+  display: flex;
+}
+.footer-info{
+  display: flex;
+  background: black;
+  color: white;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 60%;
+  margin: auto;
+
+  
+  
+}
+.footer-info .footer-info-itens{
+ 
+  display: flex;
+  list-style: none;
+
+}
+.footer-info .footer-info-itens .footer-info-item{
+  margin: 0 10px;
+  font-weight: bold;
+  color: gray;
+
+}
+.footer-info .rights{
+  
+}
+.footer-info .rights .country{
+  display: flex;
+}
+.footer-info .rights .country .flag{
+  height: 20px;
+  width: auto;
+  display: inline-block;
 }
