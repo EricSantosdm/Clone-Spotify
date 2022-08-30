@@ -139,13 +139,17 @@ border-right: 1px solid white;
 
 }
 .footer-info .rights{
+ 
   
 }
 .footer-info .rights .country{
   display: flex;
+    align-items: flex-end;
+
 }
 .footer-info .rights .country .flag{
   height: 20px;
   width: auto;
   display: inline-block;
+  padding: 0 10px;
 }
